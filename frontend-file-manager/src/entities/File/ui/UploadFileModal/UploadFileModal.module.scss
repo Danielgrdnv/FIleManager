@@ -1,0 +1,17 @@
+.inputTitle {
+
+}
+
+.inputIcon {
+
+}
+
+.inputLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  svg > path {
+    fill: white;
+  }
+}

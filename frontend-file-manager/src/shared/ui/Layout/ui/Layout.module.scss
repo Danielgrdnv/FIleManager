@@ -1,0 +1,49 @@
+.layout {
+}
+
+.header {
+  margin: 50px auto 10px;
+  padding: 0 40px;
+  max-width: 1400px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  position: sticky;
+  background-color: var(--color-background);
+  top: 0;
+  z-index: 2;
+}
+
+.sticky_header {
+  position: sticky;
+  top: 0;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  padding: 0 16px;
+}
+
+.footer {
+  border-radius: 10px 10px 0 0;
+  padding: 10px 16px;
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  background-color: red;
+  left: 0;
+  right: 0;
+}

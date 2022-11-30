@@ -1,0 +1,34 @@
+.toastContainer{
+  z-index: 1000000000;
+  text-transform: uppercase;
+
+  .Toastify__toast-theme--colored.Toastify__toast--error {
+    background-color: var(--color-error);
+  }
+
+  .Toastify__toast-theme--colored.Toastify__toast--success {
+    background-color:var(--color-success);
+  }
+
+  .Toastify__toast-theme--colored.Toastify__toast--warning {
+    background-color: var(--color-primary-light);
+  }
+
+  .Toastify__toast-theme--colored.Toastify__toast--default {
+    background-color: var(--color-primary-light);
+  }
+
+  .Toastify__progress-bar {
+    height: 100%;
+    opacity: 0.3 !important;
+    transform-origin: right;
+  }
+
+  .Toastify__toast-icon {
+    display: none;
+  }
+}
+
+.icon{
+  padding: 8px 0px;
+}

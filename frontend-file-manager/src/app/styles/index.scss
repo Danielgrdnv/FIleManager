@@ -1,0 +1,45 @@
+@import "variables/global";
+@import "themes/light";
+@import 'variables/reset';
+@import "variables/variables";
+
+* {
+  font-family: "Roboto", "Roboto Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.1s;
+  color: var(--font-color-primary);
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-color);
+  background: var(--bg-color);
+}
+
+.wrapper-content {
+  min-height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 4px;
+  height: 3px;
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 4px;
+  height: 3px;
+  background-color: var(--color-primary);
+}

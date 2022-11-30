@@ -1,0 +1,51 @@
+:root {
+  --color-error: #D32F2F;
+  --color-error-hover: #F1CDCD;
+
+  --color-success: #27AE60;
+  --color-success-hover: #C1EDD3;
+}
+
+@mixin pageSettings {
+  @media screen and (max-width: 1200px) {
+    padding: 0 26px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 13px;
+  }
+}
+
+@mixin flexGapCol($size) {
+  display: flex;
+  //flex-wrap: wrap;
+  //@supports (gap: $size) {
+  //  gap: $size;
+  //}
+  @supports (gap: $size) {
+
+    & > * {
+      margin-right: $size;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin flexGapRow($size) {
+  display: flex;
+  //flex-wrap: wrap;
+  flex-direction: column;
+  //@supports (gap: $size) {
+  //  gap: $size;
+  //}
+  @supports (gap: $size) {
+
+    & > * {
+      margin-bottom: $size;
+    }
+    & > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

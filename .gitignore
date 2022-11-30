@@ -1,0 +1,10 @@
+.idea
+
+frontend-file-manager/node_modules
+backend-file-manager/node_modules
+frontend-file-manager/.idea
+backend-file-manager/.idea
+frontend-file-manager/yarn-error.log
+backend-file-manager/yarn-error.log
+
+backend-file-manager/files/
