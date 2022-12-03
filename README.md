@@ -1,7 +1,7 @@
 # FIleManager
 
 ##### start frontend - yarn run start
-##### start backend - yarn run
+##### start backend - yarn run start
 
 
 > create folder: post
